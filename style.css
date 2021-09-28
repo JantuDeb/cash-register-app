@@ -81,7 +81,11 @@ h1 {
 }
 
 footer {
-  margin-top: 5rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 1rem 0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,6 +97,7 @@ footer p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .footer-list {
+  padding: 0.5rem 0rem;
   display: flex;
   justify-content: center;
   list-style: none;
